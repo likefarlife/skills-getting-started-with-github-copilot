@@ -41,6 +41,51 @@ activities = {
     }
 }
 
+# Additional activities
+activities.update({
+    # Sports
+    "Soccer Team": {
+        "description": "Competitive soccer team practicing drills and playing matches",
+        "schedule": "Tuesdays and Thursdays, 4:00 PM - 6:00 PM",
+        "max_participants": 22,
+        "participants": ["liam@mergington.edu", "noah@mergington.edu"]
+    },
+    "Basketball Club": {
+        "description": "Pickup games and skill development for basketball enthusiasts",
+        "schedule": "Mondays and Wednesdays, 5:00 PM - 6:30 PM",
+        "max_participants": 15,
+        "participants": ["ava@mergington.edu", "mia@mergington.edu"]
+    },
+
+    # Artistic
+    "Art Club": {
+        "description": "Explore painting, drawing, and mixed media techniques",
+        "schedule": "Fridays, 3:30 PM - 5:00 PM",
+        "max_participants": 20,
+        "participants": ["isabella@mergington.edu"]
+    },
+    "Drama Club": {
+        "description": "Acting workshops, rehearsals, and stage productions",
+        "schedule": "Wednesdays, 4:00 PM - 6:00 PM",
+        "max_participants": 25,
+        "participants": ["sophia@mergington.edu", "oliver@mergington.edu"]
+    },
+
+    # Intellectual
+    "Debate Team": {
+        "description": "Prepare for debate tournaments and practice public speaking",
+        "schedule": "Thursdays, 4:30 PM - 6:00 PM",
+        "max_participants": 16,
+        "participants": ["emma@mergington.edu"]
+    },
+    "Math Club": {
+        "description": "Problem solving, math contests, and enrichment",
+        "schedule": "Mondays, 3:30 PM - 4:30 PM",
+        "max_participants": 20,
+        "participants": ["ethan@mergington.edu", "olivia@mergington.edu"]
+    }
+})
+
 
 @app.get("/")
 def root():
